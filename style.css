@@ -185,6 +185,22 @@ h1 {
   font-size: clamp(32px, 5vw, 64px);
 }
 
+.hero-name {
+  display: grid;
+  gap: 8px;
+}
+
+.hero-name span {
+  display: block;
+}
+
+.hero-english {
+  font-size: clamp(18px, 2vw, 26px);
+  font-weight: 400;
+  color: color-mix(in srgb, currentColor 74%, transparent);
+  letter-spacing: 0.04em;
+}
+
 h2 {
   margin-bottom: 16px;
   font-size: clamp(26px, 3vw, 44px);
